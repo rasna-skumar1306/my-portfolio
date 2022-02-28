@@ -36,7 +36,7 @@ import spotify from "../assets/spotify.png";
 
 import titleLogo from "../assets/RSfavicon.svg";
 
-export default {
+const img = {
   email,
   mobile,
   api,
@@ -71,3 +71,5 @@ export default {
   spotify,
   titleLogo,
 };
+
+export default img;

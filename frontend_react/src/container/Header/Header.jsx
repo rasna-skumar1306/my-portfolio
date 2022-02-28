@@ -30,6 +30,7 @@ const Header = () => {
 
   useEffect(() => {
     typing();
+    //eslint-disable-next-line
   }, []);
 
   const sentences = [

@@ -16,6 +16,10 @@
   flex-wrap: wrap;
   margin: 4em 2rem 2rem;
 
+  a {
+    text-decoration: none;
+  }
+
   .app__footer-card {
     min-width: 315px;
     display: flex;

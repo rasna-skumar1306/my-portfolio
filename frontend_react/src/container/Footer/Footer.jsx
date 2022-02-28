@@ -22,7 +22,7 @@ const Footer = () => {
 
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
-    
+
     if (error) {
       setTimeout(() => setError(""), 2000);
     }
@@ -55,23 +55,23 @@ const Footer = () => {
     <>
       <h2 className="head-text">Have a coffee & chat with me</h2>
       <div className="app__footer-cards">
-        <div className="app__footer-card">
-          <img src={images.email} alt="email" />
-          <a href="mailto:rasswanth.senthilkumar@gmail.com" className="p-text">
+        <a href="mailto:rasswanth.senthilkumar@gmail.com" className="p-text">
+          <div className="app__footer-card">
+            <img src={images.email} alt="email" />
             rasswanth.senthilkumar@gmail.com
-          </a>
-        </div>
-        <div className="app__footer-card">
-          <VscFilePdf className="logo" />
-          <a
-            href="https://drive.google.com/file/d/1n8poNmVkGAMiux8xSxdXIRaHWwp-ogB_/view?usp=sharing"
-            className="p-text"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
+          </div>
+        </a>
+        <a
+          href={`https://drive.google.com/file/d/1WuO1MMN3HZEwyNlBTXjA9Z2lR8xufufS/view?usp=sharing`}
+          className="p-text"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="app__footer-card">
+            <VscFilePdf className="logo" />
             My Resume/CV
-          </a>
-        </div>
+          </div>
+        </a>
         {/* <div className="app__footer-card">
           <img src={images.mobile} alt="email" />
           <a href="tel:+919487088723" className="p-text">
