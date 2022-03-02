@@ -32,6 +32,7 @@ const Work = () => {
 
       if (item === "All") {
         setWorks(works);
+        setFilterWork(works);
       } else {
         setFilterWork(works.filter((work) => work.tags.includes(item)));
       }
