@@ -94,12 +94,19 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="tag-cmp app__flex">
+          {/* <div className="tag-cmp app__flex">
             <p className="p-text">React UI Engineer</p>
             <p className="p-text">@ Propertyloop, London</p>
-          </div>
+          </div> */}
           <div className="tag-cmp app__flex">
-            <p className="p-text">Incoming graduate student</p>
+            <p className="p-text">
+              Current graduate student <br />
+              and{" "}
+              <span style={{ fontSize: 14, color: "#00f" }}>
+                Course Representative
+              </span>{" "}
+              of
+            </p>
             <p className="p-text">Msc in Information Security</p>
             <p className="p-text">@ University of Surrey</p>
           </div>
