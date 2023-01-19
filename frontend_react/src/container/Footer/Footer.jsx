@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </a>
         <a
-          href={`https://drive.google.com/file/d/1WuO1MMN3HZEwyNlBTXjA9Z2lR8xufufS/view?usp=sharing`}
+          href={`https://drive.google.com/file/d/1WTdD3DXUbw-mDVRMzlJ1yCaGRa_FvcIc/view?usp=sharing`}
           className="p-text"
           target="_blank"
           rel="noreferrer noopener"
